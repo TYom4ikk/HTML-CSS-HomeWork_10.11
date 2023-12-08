@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: aqua;
+}
+
+h1{
+    text-align: center;
+    margin-top: 5%;
+}
+
+.title{
+    font-weight: bold;
+    font-size: 200%;
+    text-align: center;
+}
+
+.container{
+    width: 100vw;
+    margin-top: 150px;
+    margin-left: 500px;
+}
+
+.article{
+    text-align: justify;
+    margin: 0 10%;
+    position: relative;
+    color: rgb(150, 197, 238);
+    top: -115%;
+}
+
+.square{
+    position: relative;
+    height: 250px;
+    width: 250px;
+    transition: 2s;
+    .image{display: none;}
+    .article{display: none;}
+}
+
+.square:hover{
+    margin-left: 250px;
+    .image{display: block;}
+    .article{display: block;}
+}
+
+.sq1{
+    background-color: red;
+}
+.sq2{
+    background-color: blue;
+    position: relative;
+    top: -150px;
+    right: 20px;
+}
+.sq3{
+    background-color: green;
+    position: relative;
+    top: -300px;
+    right: 40px;
+}
+.sq4{
+    background-color: yellow;
+    position: relative;
+    top: -450px;
+    right: 60px;
+}
+.sq5{
+    background-color: darkmagenta;
+    position: relative;
+    top: -600px;
+    right: 80px;
+}
+.sq6{
+    background-color:darkgoldenrod;
+    position: relative;
+    top: -750px;
+    right: 100px;
+}

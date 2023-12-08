@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.circle{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    margin: 0 50px;
+}
+
+.first{
+    animation-name: first;
+    animation-duration: 1s;
+}
+
+.second{
+    animation-name: second;
+    animation-duration: 2s;
+}
+
+.third{
+    animation-name: third;
+    animation-duration: 3s;
+}
+
+.fourth{
+    animation-name: fourth;
+    animation-duration: 4s;
+}
+
+@keyframes first{
+    100%{transform: scale(1.5);background-color: red;}
+}
+
+
+@keyframes second{
+    100%{transform: scale(1.5);background-color: orange;}
+}
+
+
+@keyframes third{
+    100%{transform: scale(1.5);background-color: yellow;}
+}
+
+@keyframes fourth {
+    100%{transform: scale(1.5); background-color: green;}
+    
+}
